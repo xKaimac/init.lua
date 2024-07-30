@@ -1,3 +1,4 @@
+-- Change this for the default theme that you want
 function ColorMyPencils(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
@@ -7,4 +8,5 @@ function ColorMyPencils(color)
 
 end
 
+-- Call this every time :PackerSync is called to fix it
 ColorMyPencils()

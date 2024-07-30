@@ -7,11 +7,14 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+  -- File searcher
   use {
     'nvim-telescope/telescope.nvim', tag = '0.1.8',
     -- or                            , branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+
+  -- Default theme
   use({
     'rose-pine/neovim',
     as = 'rose-pine',
@@ -26,6 +29,7 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
 
+  -- language server, configure which ones you want via Mason
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
@@ -45,6 +49,7 @@ return require('packer').startup(function(use)
     run = 'npm install --frozen-lockfile --production'
   }
 
+  -- god send, auto adds the matching brace/quote
   use {
     'windwp/nvim-autopairs',
     config = function()
@@ -73,3 +78,4 @@ return require('packer').startup(function(use)
   }
 
 end)
+

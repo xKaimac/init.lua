@@ -9,6 +9,7 @@ lsp.preset('recommended')
 
 require('mason').setup()
 
+-- Add the servers that you need. (Can be manually done with :Mason as well)
 require('mason-lspconfig').setup({
 	ensure_installed = {
 		'tsserver',
@@ -24,6 +25,7 @@ require('mason-lspconfig').setup({
 
 local cmp = require('cmp')
 
+-- navigate between autocomplete options
 cmp.setup({
 	mapping = {
 		['<C-p>'] = cmp.mapping.select_prev_item(),
@@ -31,6 +33,8 @@ cmp.setup({
 		['<C-y>'] = cmp.mapping.confirm({ select = true }),
 		['<C-Space>'] = cmp.mapping.complete(),
 		-- Mapping for <Tab> to navigate suggestions or insert whitespace
+    -- tab is whitespace by default, but if there's an auto complete suggestion
+    -- it will use the first option
 		['<Tab>'] = cmp.mapping(function(fallback)
 			if cmp.visible() then
 				-- If completion menu is visible, confirm the selected item
@@ -48,6 +52,7 @@ cmp.setup({
 	},
 })
 
+-- no icons, delete this if you want them
 lsp.set_preferences({
 	sign_icons = { }
 })
