@@ -1,6 +1,6 @@
 # Kaimac's Neovim Configuration
 
-This Neovim configuration provides a powerful and efficient coding environment with a focus on productivity and ease of use.
+This Neovim config (Based on [ThePrimeAgen's](https://github.com/ThePrimeagen/init.lua)) aims to replace a regular IDE with a fairly purposeful set of plugins to make things fast and intuitive.
 
 ## Table of Contents
 - [Features](#features)
