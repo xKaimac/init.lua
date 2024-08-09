@@ -1,8 +1,17 @@
-# Neovim Configuration
+# Kaimac's Neovim Configuration
 
 This Neovim configuration provides a powerful and efficient coding environment with a focus on productivity and ease of use.
 
-## Key Features
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Key Mappings](#key-mappings)
+- [Neovim Settings](#neovim-settings)
+- [Plugins](#plugins)
+- [Language Server Protocol (LSP)](#language-server-protocol-lsp)
+- [Additional Configurations](#additional-configurations)
+
+## Features
 
 1. **Plugin Management**: Uses Packer for efficient plugin management.
 2. **Fuzzy Finding**: Telescope for quick file and content searching.
@@ -18,11 +27,31 @@ This Neovim configuration provides a powerful and efficient coding environment w
 
 ## Installation
 
-Clone this repo into your relevant nvim config folder (`~/.config/nvim/` for Linux, and `~/AppData/Local/nvim/` for Windows). Navigate to `nvim/lua/packer.lua` and shout it out with `:so`. Call `:PackerSync` and make sure that all downloads and installs are complete. You may need to shout out the relevant files or adjust specific configurations on your machine if there are issues (If in doubt, `:so` everything and `:PackerSync` to take the shotgun approach). To get the theme and colours right, call `:ColorMyPencils()` from `nvim/after/plugin/colors.lua`. You will need to do this whenever you use `:PackerSync` to get the theme back to normal.
+Clone this repo into your relevant nvim config folder (`~/.config/nvim/` for Linux, and `~/AppData/Local/nvim/` for Windows). Navigate to `nvim/lua/packer.lua` and source it with `:so`. Call `:PackerSync` and make sure that all downloads and installs are complete. You may need to source the relevant files or adjust specific configurations on your machine if there are issues (If in doubt, `:so` everything and `:PackerSync` to take the shotgun approach). To get the theme and colours right, call `:ColorMyPencils()` from `nvim/after/plugin/colors.lua`. You will need to do this whenever you use `:PackerSync` to get the theme back to normal.
+
+## Key Mappings
+
+For a detailed list of key mappings, see [Key Mappings](docs/key_mappings.md).
+
+## Neovim Settings
+
+For information on Neovim settings, see [Neovim Settings](docs/neovim_settings.md).
+
+## Plugins
+
+For a list of plugins and their configurations, see [Plugins](docs/plugins.md).
+
+## Language Server Protocol (LSP)
+
+For details on the LSP configuration, see [LSP Configuration](docs/lsp_configuration.md).
+
+## Additional Configurations
+
+For information on color scheme, git integration, and other additional configurations, see [Additional Configurations](docs/additional_configurations.md).
 
 ## Usage
 
-Refer to the individual sections in this README for specific keybindings and features of each component.
+Refer to the individual sections in this README and the linked documentation for specific keybindings and features of each component.
 
 ## Customization
 
