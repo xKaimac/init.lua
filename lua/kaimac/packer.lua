@@ -77,5 +77,9 @@ return require('packer').startup(function(use)
     end
   }
 
+  use {
+    "Djancyp/cheat-sheet"
+  }
+
 end)
 

@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Alistair.Macvic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cheat-sheet"] = {
+    loaded = true,
+    path = "C:\\Users\\Alistair.Macvic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cheat-sheet",
+    url = "https://github.com/Djancyp/cheat-sheet"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\Alistair.Macvic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
@@ -105,7 +110,7 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-autopairs"] = {
-    config = { "\27LJ\2\n»\5\0\0\t\0\28\0 6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\3=\3\15\0025\3\16\0=\3\17\0025\3\18\0005\4\19\0=\4\20\0036\4\21\0009\4\22\4'\6\23\0'\a\24\0'\b\25\0B\4\4\2=\4\26\3=\3\27\2B\0\2\1K\0\1\0\14fast_wrap\fpattern\5\b%s+\23 [%'%\"%)%>%]%)%}] \tgsub\vstring\nchars\1\6\0\0\6{\6[\6(\6\"\6'\1\0\b\16check_comma\2\tkeys\31qwertyuiopzxcvbnmasdfghjkl\fend_key\6$\bmap\n<M-e>\fpattern\0\14highlight\vSearch\nchars\0\19highlight_grey\fComment\21disable_filetype\1\2\0\0\20TelescopePrompt\14ts_config\20typescriptreact\1\3\0\0\16jsx_element\17jsx_fragment\20javascriptreact\1\3\0\0\16jsx_element\17jsx_fragment\15typescript\1\2\0\0\20template_string\15javascript\1\2\0\0\20template_string\thtml\1\0\5\20javascriptreact\0\20typescriptreact\0\thtml\0\15javascript\0\15typescript\0\1\2\0\0\rtag_name\1\0\4\14ts_config\0\14fast_wrap\0\rcheck_ts\2\21disable_filetype\0\nsetup\19nvim-autopairs\frequire\0" },
+    config = { "\27LJ\2\n»\5\0\0\t\0\28\0 6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\3=\3\15\0025\3\16\0=\3\17\0025\3\18\0005\4\19\0=\4\20\0036\4\21\0009\4\22\4'\6\23\0'\a\24\0'\b\25\0B\4\4\2=\4\26\3=\3\27\2B\0\2\1K\0\1\0\14fast_wrap\fpattern\5\b%s+\23 [%'%\"%)%>%]%)%}] \tgsub\vstring\nchars\1\6\0\0\6{\6[\6(\6\"\6'\1\0\b\fpattern\0\bmap\n<M-e>\tkeys\31qwertyuiopzxcvbnmasdfghjkl\16check_comma\2\fend_key\6$\14highlight\vSearch\19highlight_grey\fComment\nchars\0\21disable_filetype\1\2\0\0\20TelescopePrompt\14ts_config\20typescriptreact\1\3\0\0\16jsx_element\17jsx_fragment\20javascriptreact\1\3\0\0\16jsx_element\17jsx_fragment\15typescript\1\2\0\0\20template_string\15javascript\1\2\0\0\20template_string\thtml\1\0\5\20typescriptreact\0\thtml\0\15javascript\0\15typescript\0\20javascriptreact\0\1\2\0\0\rtag_name\1\0\4\21disable_filetype\0\rcheck_ts\2\14fast_wrap\0\14ts_config\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
     path = "C:\\Users\\Alistair.Macvic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
@@ -175,7 +180,7 @@ try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\
 time([[Config for rose-pine]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n»\5\0\0\t\0\28\0 6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\3=\3\15\0025\3\16\0=\3\17\0025\3\18\0005\4\19\0=\4\20\0036\4\21\0009\4\22\4'\6\23\0'\a\24\0'\b\25\0B\4\4\2=\4\26\3=\3\27\2B\0\2\1K\0\1\0\14fast_wrap\fpattern\5\b%s+\23 [%'%\"%)%>%]%)%}] \tgsub\vstring\nchars\1\6\0\0\6{\6[\6(\6\"\6'\1\0\b\16check_comma\2\tkeys\31qwertyuiopzxcvbnmasdfghjkl\fend_key\6$\bmap\n<M-e>\fpattern\0\14highlight\vSearch\nchars\0\19highlight_grey\fComment\21disable_filetype\1\2\0\0\20TelescopePrompt\14ts_config\20typescriptreact\1\3\0\0\16jsx_element\17jsx_fragment\20javascriptreact\1\3\0\0\16jsx_element\17jsx_fragment\15typescript\1\2\0\0\20template_string\15javascript\1\2\0\0\20template_string\thtml\1\0\5\20javascriptreact\0\20typescriptreact\0\thtml\0\15javascript\0\15typescript\0\1\2\0\0\rtag_name\1\0\4\14ts_config\0\14fast_wrap\0\rcheck_ts\2\21disable_filetype\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+try_loadstring("\27LJ\2\n»\5\0\0\t\0\28\0 6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\3=\3\15\0025\3\16\0=\3\17\0025\3\18\0005\4\19\0=\4\20\0036\4\21\0009\4\22\4'\6\23\0'\a\24\0'\b\25\0B\4\4\2=\4\26\3=\3\27\2B\0\2\1K\0\1\0\14fast_wrap\fpattern\5\b%s+\23 [%'%\"%)%>%]%)%}] \tgsub\vstring\nchars\1\6\0\0\6{\6[\6(\6\"\6'\1\0\b\fpattern\0\bmap\n<M-e>\tkeys\31qwertyuiopzxcvbnmasdfghjkl\16check_comma\2\fend_key\6$\14highlight\vSearch\19highlight_grey\fComment\nchars\0\21disable_filetype\1\2\0\0\20TelescopePrompt\14ts_config\20typescriptreact\1\3\0\0\16jsx_element\17jsx_fragment\20javascriptreact\1\3\0\0\16jsx_element\17jsx_fragment\15typescript\1\2\0\0\20template_string\15javascript\1\2\0\0\20template_string\thtml\1\0\5\20typescriptreact\0\thtml\0\15javascript\0\15typescript\0\20javascriptreact\0\1\2\0\0\rtag_name\1\0\4\21disable_filetype\0\rcheck_ts\2\14fast_wrap\0\14ts_config\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
 
 _G._packer.inside_compile = false
