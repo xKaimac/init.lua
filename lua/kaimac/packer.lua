@@ -82,7 +82,14 @@ return require('packer').startup(function(use)
   }
 
   use {
-    "Djancyp/cheat-sheet"
+    "Djancyp/cheat-sheet",
+    config = function()
+      require('cheat-sheet').setup({
+        auto_fill = {
+          current_word = false
+        }
+      })
+    end
   }
 
 end)

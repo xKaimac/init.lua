@@ -4,7 +4,7 @@ vim.opt.relativenumber = true
 
 -- Searches are case insensitive until an uppercase char is used in the search
 vim.opt.ignorecase = true
-vim.opt.smartcse = true
+vim.opt.smartcase = true
 
 -- Tabs are 2 spaces
 vim.opt.tabstop = 2
