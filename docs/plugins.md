@@ -50,9 +50,9 @@ This Neovim configuration uses the following plugins:
 11. **nvim-autopairs**: Automatic bracket pairing
     - Features:
       - Treesitter integration for improved accuracy
-      - Special handling for HTML tags and template strings in JavaScript/TypeScript
-      - JSX/TSX element handling
+      - Special handling for template strings in JavaScript/TypeScript
       - Fast wrap functionality with `<M-e>` keybinding
+12. **nvim-ts-autotag**: Automatic HTML/(T/J)SX tag closing
 
 ## Plugin Configuration
 
