@@ -2,6 +2,9 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+-- Searches are case insensitive
+vim.opt.ignorecase = true
+
 -- Tabs are 2 spaces
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
