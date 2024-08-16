@@ -91,3 +91,7 @@ The configuration uses Prettier for automatic code formatting on save. This appl
 ## Auto-pairing
 
 Nvim-autopairs is used for automatic bracket and quote pairing. It's configured to work with various languages and frameworks, including HTML, JavaScript, TypeScript, and React.
+
+## Auto Direcotry Entry
+
+When creating a directory in Netrw, navigate to it automatically after creation.
