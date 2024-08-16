@@ -16,6 +16,7 @@ The configuration uses the space key as the leader key.
 - `<leader>e`: Open floating diagnostic window
 - `<leader>gs`: Open Git status window (Fugitive)
 - `<leader>u`: Toggle Undotree panel
+- `<leader>ch`: Open Cht.sh with a prompt for the language of the current file.
 
 ## Insert Mode
 - `<C-H>`: Delete previous word (equivalent to <C-W>)
