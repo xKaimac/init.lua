@@ -23,7 +23,7 @@ This Neovim config (Based on [ThePrimeAgen's](https://github.com/ThePrimeagen/in
 8. **Undo History**: Undotree for visualizing and navigating through file history.
 9. **Color Scheme**: Customizable with Rose Pine as the default theme.
 10. **Auto Formatting**: Prettier for automatic code formatting on save.
-11. **Auto Pairing**: Automatic bracket and quote pairing with nvim-autopairs.
+11. **Auto Pairing**: Automatic bracket and quote pairing with nvim-autopairs. Automatic HTML tag closing with nvim-ts-autotag.
 12. **Cheat Sheat**: Hotkey to grab a cheet sheet prompt in the language of the current file.
 13. **Auto Directory Entry**: Jump straight into a newly created directory when made in `Netrw`
 
