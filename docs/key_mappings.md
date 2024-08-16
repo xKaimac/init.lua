@@ -11,11 +11,12 @@ The configuration uses the space key as the leader key.
 - `<leader>y`: Yank to system clipboard
 - `<leader>Y`: Yank whole line to system clipboard
 - `Q`: Disabled (no operation)
-- `<C-f>`: Open tmux sessionizer in a new tmux window
+- `<C-f>`: Open tmux sessionizer in a new tmux window (Linux only)
 - `<leader>s`: Find and replace current word under cursor
-- `<leader>e`: Open floating diagnostic window
+- `<leader>e`: Open floating diagnostic window for LSP warnings
 - `<leader>gs`: Open Git status window (Fugitive)
 - `<leader>u`: Toggle Undotree panel
+- `<leader>ch`: Open Cht.sh with a prompt for the language of the current file
 
 ## Insert Mode
 - `<C-H>`: Delete previous word (equivalent to <C-W>)
