@@ -56,11 +56,8 @@ return require('packer').startup(function(use)
       require('nvim-autopairs').setup{
         check_ts = true,  -- Enable Treesitter support
         ts_config = {
-          html = {'tag_name'},  -- Handle HTML tags
           javascript = {'template_string'},  -- Handle JavaScript template strings
           typescript = {'template_string'},  -- Handle TypeScript template strings
-          javascriptreact = {'jsx_element', 'jsx_fragment'},  -- Handle JSX elements
-          typescriptreact = {'jsx_element', 'jsx_fragment'},  -- Handle TSX elements
         },
         disable_filetype = { "TelescopePrompt" },  -- Disable in specific filetypes
         fast_wrap = {
@@ -74,6 +71,13 @@ return require('packer').startup(function(use)
           highlight_grey = "Comment",
         },
       }
+    end
+  }
+  
+  use {
+    'windwp/nvim-ts-autotag',
+    config = function()
+      require('nvim-ts-autotag').setup()
     end
   }
 
